@@ -39,55 +39,55 @@ async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )    
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)  
 @router.callback_query(F.data.startswith('moscow'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
 @router.callback_query(F.data.startswith('kazan'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
 @router.callback_query(F.data.startswith('tumen'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
 @router.callback_query(F.data.startswith('spb'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
 @router.callback_query(F.data.startswith('nn'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
 @router.callback_query(F.data.startswith('ez'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
 @router.callback_query(F.data.startswith('voronez'))
 async def view_perm(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.answer_photo(
         photo='https://aif-s3.aif.ru/images/015/485/a342d79e148083120d2572cce64ae6b8.jpg',
-        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:'
-    )
+        caption=f'Название города в разные времена:\nДата создания:\nКраткая история города:',
+        reply_markup= kbinline.backtown)
   
