@@ -22,7 +22,7 @@ async def command_start(message:Message):
 async def back_category(callback: CallbackQuery):
     await callback.answer('')
     await callback.message.edit_text('Выберете город, про который хотите узнать:',
-                                  reply_markup= kbinline.town_view)
+                                  reply_markup= kbinline.sity)
  
 @router.callback_query(F.data.startswith(' back'))
 async def command_start(message:Message):  
